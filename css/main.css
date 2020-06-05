@@ -29,7 +29,12 @@
  * Normalize.css........A level playing field.
  * Reset................A pared back reset to remove margins.
  * Shared...............Sensibly and tersely share global commonalities.
- *
+ */
+@import url("resets/reset.css");
+@import url("resets/normalize.css");
+@import url("resets/typography.css");
+
+ /*
  * ELEMENTS
  * Page.................Page-level styles (HTML element).
  * Headings.............Heading styles.
@@ -37,8 +42,9 @@
  * Lists................Default list styles.
  * Images...............Base image styles.
  * Quotes...............Styling for blockquotes, etc.
- *
- * OBJECTS
+ */
+ 
+ /* OBJECTS
  * Wrappers.............Wrappers and page constraints.
  * Layout...............Generic layout module.
  * Headline.............Simple object for structuring heading pairs.
@@ -81,3 +87,4 @@
  * Debug................Highlight potentially troublesome code.
  * Shame.css............Short-term hacks and quick-fixes.
  */
+
